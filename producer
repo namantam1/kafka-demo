@@ -1,0 +1,2 @@
+#!/bin/bash
+mvn compile exec:java -Dexec.mainClass=namantam1.ChatProducer -Djava.security.auth.login.config="C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf"

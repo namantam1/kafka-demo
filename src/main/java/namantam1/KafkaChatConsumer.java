@@ -29,7 +29,7 @@ public class KafkaChatConsumer {
 
     // setup consumer
     KafkaConsumer<String, String> consumer = new KafkaConsumer<>(config);
-    consumer.subscribe(List.of("chat-topic"));
+    consumer.subscribe(List.of("STREAM_INPUT-1"));
 
     while (true) {
       ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));

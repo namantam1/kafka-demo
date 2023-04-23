@@ -1,0 +1,1 @@
+bin/windows/kafka-streams-application-reset.bat --application-id=ndfbtwex-KAFKA_STREAMS_APP-1 --bootstrap-server=pkc-6ojv2.us-west4.gcp.confluent.cloud:9092 --config-file=config/stream-reset-config.properties --force

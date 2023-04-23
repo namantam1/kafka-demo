@@ -6,13 +6,19 @@
         <!-- Console appender configuration -->
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout
-                    pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+                    pattern="%highlight{%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n}" disableAnsi="false"/>
         </Console>
+        <File name="namantam1.StreamExample" fileName="logs/namantam1.StreamExample.log">
+            <PatternLayout pattern="%pid-thread-%tid %F:%L - %msg%n" />
+        </File>
     </Appenders>
     <Loggers>
         <!-- Root logger referring to console appender -->
-        <Root level="info" additivity="false">
-            <AppenderRef ref="console" />
+        <Root level="info">
+            <AppenderRef ref="console"/>
         </Root>
+        <Logger name="namantam1.StreamExample" level="info">
+            <AppenderRef ref="namantam1.StreamExample" />
+        </Logger>
     </Loggers>
 </Configuration>

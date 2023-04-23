@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mvn compile exec:java -Dexec.mainClass=namantam1.StreamExample -Djava.security.auth.login.config="C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf" -Did=$1

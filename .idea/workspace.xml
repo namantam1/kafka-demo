@@ -3,13 +3,19 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="kafka-demo" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a8070e67-113f-49b0-8052-35bffb61c377" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/ChatProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/ChatProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/KafkaChatConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/KafkaChatConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/streams/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OhqGTEHQm4yVumoP6VXSlKL4fv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,10 +56,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Naman Tamrakar/Desktop/spring/project1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamExample">
+  <component name="RunManager" selected="Application.ChatProducer">
     <configuration name="ChatProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="namantam1.ChatProducer" />
       <module name="kafka-demo" />
@@ -54,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="namantam1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="namantam1.utils.FileUtil" />
+      <module name="kafka-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="namantam1.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,15 +121,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FileUtil" />
       <item itemvalue="Application.StreamExample" />
       <item itemvalue="Application.ChatProducer" />
       <item itemvalue="Application.KafkaChatConsumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatProducer" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.KafkaChatConsumer" />
-        <item itemvalue="Application.ChatProducer" />
+        <item itemvalue="Application.FileUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +145,10 @@
       <updated>1682023066385</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
