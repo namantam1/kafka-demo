@@ -1,4 +1,4 @@
-package namantam1;
+package namantam1.gettingstarted;
 
 import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.serialization.Serdes;
@@ -9,12 +9,9 @@ import org.apache.kafka.streams.Topology;
 
 import java.util.Properties;
 
-public class StreamExample {
-  public static final String BOOTSTRAP_SERVER = "pkc-6ojv2.us-west4.gcp.confluent.cloud:9092";
-  public static final String STREAMS_APP_ID = "ndfbtwex-KAFKA_STREAMS_APP-1";
-  public static final String INPUT_TOPIC = "STREAM_INPUT-1";
-  public static final String OUTPUT_TOPIC = "STREAM_OUTPUT-1";
+import static namantam1.Constants.*;
 
+public class Main {
   public static void main(String[] args) {
     // setup streams config
     Properties config = new Properties();

@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a8070e67-113f-49b0-8052-35bffb61c377" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/ChatProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/ChatProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/KafkaChatConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/KafkaChatConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/streams/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/ChatProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/KafkaChatConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/stateless/twittersentiments/CryptoTopology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/stateless/twittersentiments/CryptoTopology.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/namantam1/stateless/twittersentiments/TwitterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/namantam1/stateless/twittersentiments/TwitterStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +45,38 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+    "last_directory_selection": "C:/Users/Naman Tamrakar/Desktop/spring/kafka-demo/src/main/java/namantam1/stateless/twittersentiments",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamExample">
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="namantam1.stateless.twittersentiments" />
+      <recent name="namantam1.stateless.twittersentiments.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TwitterStream">
     <configuration name="ChatProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="namantam1.ChatProducer" />
       <module name="kafka-demo" />
       <option name="VM_PARAMETERS" value="-Djava.security.auth.login.config=&quot;C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="namantam1.*" />
+          <option name="PATTERN" value="namantam1.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Constants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="namantam1.Constants" />
+      <module name="kafka-demo" />
+      <option name="VM_PARAMETERS" value="-Djava.security.auth.login.config=&quot;C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="namantam1.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +90,7 @@
       <option name="VM_PARAMETERS" value="-Djava.security.auth.login.config=&quot;C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="namantam1.*" />
+          <option name="PATTERN" value="namantam1.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,13 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="namantam1.StreamExample" />
+    <configuration name="TwitterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="namantam1.stateless.twittersentiments.TwitterStream" />
       <module name="kafka-demo" />
-      <option name="VM_PARAMETERS" value="-Djava.security.auth.login.config=&quot;C:\\Users\\Naman Tamrakar\\Downloads\\jaas.conf&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="namantam1.*" />
+          <option name="PATTERN" value="namantam1.stateless.twittersentiments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,13 +112,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamExample" />
+      <item itemvalue="Application.Constants" />
+      <item itemvalue="Application.TwitterStream" />
       <item itemvalue="Application.ChatProducer" />
       <item itemvalue="Application.KafkaChatConsumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.TwitterStream" />
+        <item itemvalue="Application.Constants" />
         <item itemvalue="Application.KafkaChatConsumer" />
         <item itemvalue="Application.ChatProducer" />
       </list>
